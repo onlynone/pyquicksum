@@ -3,7 +3,7 @@ import argparse
 from . import sum_up
 
 def list_int(values):
-    return map(int, values.split(','))
+    return list(map(int, values.split(',')))
 
 def main(args=None):
     if args == None:
