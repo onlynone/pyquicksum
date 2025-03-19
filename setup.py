@@ -17,10 +17,6 @@ with open('HISTORY.rst') as history_file:
 requirements = [
 ]
 
-extra_requirements = {
-    'bsddb3': ["bsddb3"],
-}
-
 setup(
     name='pyquicksum',
     version='1.0.0',
@@ -41,7 +37,6 @@ setup(
     },
     include_package_data=True,
     install_requires=requirements,
-    extras_require=extra_requirements,
     license="BSD",
     zip_safe=False,
     keywords='quicksum',
